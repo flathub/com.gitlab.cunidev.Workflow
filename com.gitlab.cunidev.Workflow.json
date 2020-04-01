@@ -1,7 +1,7 @@
 {
     "app-id" : "com.gitlab.cunidev.Workflow",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.34",
+    "runtime-version" : "3.36",
     "sdk" : "org.gnome.Sdk",
     "command" : "workflow",
     "finish-args" : [
@@ -19,8 +19,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/cunidev/workflow.git",
-                    "tag": "0.1.1",
-                    "commit": "55d881328b53284badf4c959d0cacb0798803a45"
+                    "tag": "0.1.2",
+                    "commit": "e71062829aa21cae66052f15f75e9ce6abe714ae"
                 }
             ]
         }
