@@ -20,7 +20,7 @@
                     "type" : "git",
                     "url" : "https://gitlab.com/cunidev/workflow.git",
                     "tag": "0.1.3",
-                    "commit": "aa15e909fb90c1a9de3ef67258300181f4dce890"
+                    "commit": "21a1c2b6166fe38814290495d127a594c69d7691"
                 }
             ]
         }
