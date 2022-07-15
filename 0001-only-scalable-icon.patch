@@ -1,0 +1,25 @@
+From c677b55368c646f59fb815268bc415f35a5aaf79 Mon Sep 17 00:00:00 2001
+From: bbhtt <62639087+bbhtt@users.noreply.github.com>
+Date: Fri, 15 Jul 2022 15:57:14 +0530
+Subject: [PATCH] Use only scalable icons
+
+---
+ data/icons/meson.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/icons/meson.build b/data/icons/meson.build
+index d6a27b0..daf32de 100644
+--- a/data/icons/meson.build
++++ b/data/icons/meson.build
+@@ -1,7 +1,7 @@
+ # credit: https://github.com/bilelmoussaoui/Authenticator/blob/master/data/icons/meson.build
+ 
+ icon_themes = ['hicolor']
+-sizes = ['16x16', '22x22', '24x24', '32x32', '48x48', '256x256', 'scalable']
++sizes = ['scalable']
+ foreach theme : icon_themes
+   foreach size: sizes
+     extension = '.png'
+-- 
+2.37.1
+

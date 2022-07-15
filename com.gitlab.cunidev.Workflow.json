@@ -21,6 +21,10 @@
                     "url" : "https://gitlab.com/cunidev/workflow.git",
                     "tag": "0.1.3",
                     "commit": "21a1c2b6166fe38814290495d127a594c69d7691"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "0001-only-scalable-icon.patch"
                 }
             ]
         }
